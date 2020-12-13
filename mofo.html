@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner {
+            background-color: rgb(60, 166, 170);
+            text-align: center;
+            color: white;
+            padding: 50px;
+        }
+
+        #madafaka {
+            display: flex;
+            list-style-type: none;
+            background-color: black;
+            color: white;
+        }
+
+        .separate {
+            margin: 10px;
+        }
+        #yamata {
+            display: flex;
+         
+                }
+        #bigboy {
+            flex: 30%;
+            background-color: snow;
+            padding: 20px;
+            
+        }
+        #smallboy {
+            flex: 70%;
+            padding: 20px;
+        }
+        .image {
+            background-color: slategrey;
+            height: 100px;
+        }
+        .picture {
+            height: 40px;
+            background-color: slategrey;
+            margin: 10px;
+        }
+@media screen and (max-width: 800px) {
+    #yamata, #madafaka {
+        flex-direction: column;
+    }
+}
+            
+
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <h1>My Website</h1>
+        <br>
+        <h3>With a flexible layout.</h3>
+    </div>
+    <div>
+        <ul id="madafaka">
+            <li class="separate">Link</li>
+            <li class="separate">Link</li>
+            <li class="separate">Link</li>
+            <li class="separate">Link</li>
+        </ul>
+    </div>
+    <div id="yamata">
+        <div id="bigboy">
+            <h1>About me</h1>
+            <h3>Photo of me:</h3>
+            <h3 class="image">Image</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae officiis quibusdam eligendi
+                molestiae
+                dolor illo neque ut sunt ducimus! Repellat sint voluptatem praesentium! Nisi veritatis dicta ipsa.
+                Dolorum,
+                sit vero?</p>
+            <h1>More Text</h1>
+            <p>Lorem ipsum dolar sit ame</p>
+            <h3 class="picture">Image</h3>
+            <h3 class="picture">Image</h3>
+            <h3 class="picture">Image</h3>
+        </div>
+
+        <div id="smallboy">
+            <h1>TIILE HEADING</h1>
+            <h3>Tile description. dec 7, 2017</h3>
+            <h3 class="image">Image</h3>
+            <h3>Some text...</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem harum quae sint deleniti veritatis. Vero facilis sapiente aut qui repellat incidunt? Corrupti voluptatibus ratione autem ex id sint laudantium repellat!</p>
+            <h1>TITLE HEADING</h1>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
